@@ -605,6 +605,7 @@ def sessiz_guc_stratejisi_api_90(
     "YATIRIM TAVSİYESİ DEĞİLDİR.
     "Nihai yatırım kararlarınızı, kendi araştırmalarınız doğrultusunda vermeniz önemlidir.
     "Uygulama geliştiricisi, yapılan işlemlerden doğabilecek zararlardan sorumlu tutulamaz."""
+        
         }
 
     except Exception as e:
