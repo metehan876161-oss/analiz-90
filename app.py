@@ -611,18 +611,9 @@ def sessiz_guc_stratejisi_api_90(
 # --------------------------------------------------------
 app = Flask(__name__)
 
-API_KEY = "aysima23112019"
-
-def check_api_key():
-    key = request.headers.get("x-api-key") or request.args.get("api_key")
-    if key != API_KEY:
-        return False
-    return True
-
 @app.route('/analiz90', methods=['GET'])
 def analiz90_route():
-    if not check_api_key():
-        return jsonify({"error": "Unauthorized. API key missing or invalid."}), 401
+    
     """
     90 günlük veri (1 saatlik mum) analiz endpoint’i.
     Örnek: /analiz90?hisse=TARKM.IS
