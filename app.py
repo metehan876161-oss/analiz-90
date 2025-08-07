@@ -601,10 +601,11 @@ def sessiz_guc_stratejisi_api_90(
             'max_points': max_points,
             'final_signal': final_signal,
             'summary': summary_table
-            'uyari': """‼️UYARI: Bu uygulama yalnızca teknik analiz araçlarıyla verileri yorumlamaktadır.
-    "YATIRIM TAVSİYESİ DEĞİLDİR.
-    "Nihai yatırım kararlarınızı, kendi araştırmalarınız doğrultusunda vermeniz önemlidir.
-    "Uygulama geliştiricisi, yapılan işlemlerden doğabilecek zararlardan sorumlu tutulamaz."""
+            'uyari': """⚠️UYARI: Bu uygulama yalnızca teknik analiz araçlarıyla verileri yorumlar.
+💡 YATIRIM TAVSİYESİ DEĞİLDİR.
+📌 Nihai yatırım kararlarınızı, kendi araştırmalarınız doğrultusunda veriniz.
+👨‍💻 Uygulama geliştiricisi, yapılan işlemlerden doğabilecek zararlardan sorumlu değildir."""
+
         
         }
     except Exception as e:
