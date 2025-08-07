@@ -607,7 +607,6 @@ def sessiz_guc_stratejisi_api_90(
     "Uygulama geliştiricisi, yapılan işlemlerden doğabilecek zararlardan sorumlu tutulamaz."""
         
         }
-
     except Exception as e:
         return {"error": str(e)}
 
