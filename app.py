@@ -600,14 +600,13 @@ def sessiz_guc_stratejisi_api_90(
             'satim_puan': satim_puan,
             'max_points': max_points,
             'final_signal': final_signal,
-            'summary': summary_table
+            'summary': summary_table,
             'uyari': """⚠️UYARI: Bu uygulama yalnızca teknik analiz araçlarıyla verileri yorumlar.
 💡 YATIRIM TAVSİYESİ DEĞİLDİR.
 📌 Nihai yatırım kararlarınızı, kendi araştırmalarınız doğrultusunda veriniz.
 👨‍💻 Uygulama geliştiricisi, yapılan işlemlerden doğabilecek zararlardan sorumlu değildir."""
 
-        
-        }
+         }
     except Exception as e:
         return {"error": str(e)}
 
